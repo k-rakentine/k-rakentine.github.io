@@ -1,8 +1,17 @@
+/*Global*/
+Body {
+    background: forestgreen;
+}
+
+/*Layout*/
+
 img { 
-            width:50%
-        }
+    width:50%
+}
+/*Typography*/
+
+
+
+/*Navigation*/
         
-        
-        Body {
-            background:yellow
-        }
+    
