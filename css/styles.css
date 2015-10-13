@@ -1,17 +1,25 @@
 /*Global*/
-Body {
-    background: forestgreen;
+
+body {
+    background: yellow;
 }
 
-/*Layout*/
 
 img { 
     width:50%
 }
+
+/*Layoout*/
 /*Typography*/
-
-
-
 /*Navigation*/
-        
+
+a {
+    background: red;
+    display: block;
+    height: 50ps;
+    width: 100px;
     
+li {
+    background: green;
+    display: inline-block;
+}
