@@ -1,7 +1,7 @@
 /*Global*/
 
 body {
-    background: yellow;
+    background: #009C10;
 }
 
 
@@ -14,7 +14,7 @@ img {
 /*Navigation*/
 
 a {
-    background: red;
+    background: #A58501;
     display: block;
     height: 50ps;
     width: 100px;
