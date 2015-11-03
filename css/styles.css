@@ -5,11 +5,17 @@
 Typography:
     headings: font-family: 'Nunito', sans-serif;
     content: font-family: 'Vollkorn', serif;
-    accents: font-family: 'Indie Flower', cursive;
+    accents: font-family: 'Indie Flower', cursive; 
+
+Colors:
+    (deep gren) #62CC67
+    (pale green) #9AFFBB
+    (salmon) #FF7E63
+    (brown/salmon) #CC9464
 */
 
 body {
-    background: rgb(202, 153, 1);
+    background: #CC9464;
 }
 
 img { 
@@ -18,6 +24,8 @@ img {
 
 
 /*Layout*/
+
+    
 
 
 /*Typography*/
@@ -36,6 +44,8 @@ a:link, a:visited {
     
 li {
     display: inline-block;
-    padding-left: 15px;
+    padding: 7px;
+    background-color: #62CC67;
+    border-radius: 25px;
 }
     
