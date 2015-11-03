@@ -13,7 +13,7 @@ img {
 }
 
 
-/*Layoout*/
+/*Layout*/
 
 
 /*Typography*/
@@ -31,4 +31,5 @@ a {
 li {
     background: green;
     display: inline-block;
+    list-style: none;
 }
