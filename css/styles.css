@@ -35,7 +35,7 @@ img {
 
 nav {
     font-family: 'Indie Flower', cursive;
-
+    display: block;
 }
 a:link, a:visited {
     display: block;
@@ -43,10 +43,16 @@ a:link, a:visited {
     text-decoration: none;
 }
     
-li {
+.nav {
     display: inline-block;
     padding: 7px;
     background-color: #62CC67;
     border-radius: 12px;
 }
     
+
+
+/*Other*/
+.vid {
+    
+}
