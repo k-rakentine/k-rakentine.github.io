@@ -11,11 +11,12 @@ Colors:
     (deep gren) #62CC67
     (pale green) #9AFFBB
     (salmon) #FF7E63
+    (teal blue) #00EFF1
     (brown/salmon) #CC9464
 */
 
 body { 
-    background: #CC9464;
+    background: #00EFF1;
 }
 
 img { 
@@ -25,6 +26,7 @@ img {
 
 /*Layout*/
 
+
     
 
 
@@ -33,22 +35,32 @@ img {
 
 /*Navigation*/
 
-nav {
-    font-family: 'Indie Flower', cursive;
-    display: block;
+
+li {
+  list-style: none;
+  width: 200px;
 }
+
+/*Link and Visited Styling*/
 a:link, a:visited {
-    display: block;
-    color: black;
-    text-decoration: none;
+  background: #62CC67;
+  border-left: 8px solid #FF7E63;
+  color: black;
+  display: block;
+  height: 32px;
+  line-height: 32px;
+  margin-bottom: 10px;
+  text-align: center;
+  text-decoration: none;
+  width: 200px;
+  transition: background .5s, margin-left 1s;
 }
-    
-.nav {
-    display: inline-block;
-    padding: 7px;
-    background-color: #62CC67;
-    border-radius: 12px;
-}
+
+a:hover {
+  background: #FF7E63;
+  border-left: 8px solid #62CC67;
+  color: black;
+  margin-left: 32px;
     
 
 
