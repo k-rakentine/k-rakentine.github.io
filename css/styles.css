@@ -25,15 +25,19 @@ img {
 
 
 /*Layout*/
-
-.grid-6 {
-    padding-bottom: 20px;
+#hufflepuff, #bindi2 {
+    margin-left: 5%;
 }
+.grid-container {
+    margin-left: 0;
+}
+
+a:link, a:visited {
+    color: black;
+    text-decoration: none;
+}
+
     
-.vid {
-    align-content: center;
-}
-
 /*Typography*/
 
 
@@ -46,7 +50,7 @@ li {
 }
 
 /*Link and Visited Styling*/
-a:link, a:visited {
+.nav:link, .nav:visited {
   background: #62CC67;
   border-left: 8px solid #FF7E63;
   color: black;
@@ -60,11 +64,13 @@ a:link, a:visited {
   transition: background .5s, margin-left 1s;
 }
 
-a:hover {
+.nav:hover {
   background: #FF7E63;
   border-left: 8px solid #62CC67;
   color: black;
   margin-left: 32px;
+}
+
     
 
 
