@@ -8,15 +8,13 @@ Typography:
     accents: font-family: 'Indie Flower', cursive; 
 
 Colors:
-    (deep gren) #62CC67
-    (pale green) #9AFFBB
-    (salmon) #FF7E63
-    (teal blue) #00EFF1
-    (brown/salmon) #CC9464
+    (deep purple) rgb(90, 42, 56)
+    (olive green) rgb(153, 117, 57)
+    (peach) rgb(240, 144, 119);
 */
 
 body { 
-    background: #00EFF1;
+    background: url(https://c1.staticflickr.com/3/2505/4038298414_94b71e4abe_b.jpg);
 }
 
 img { 
@@ -25,8 +23,10 @@ img {
 
 
 /*Layout*/
-#hufflepuff, #bindi2 {
-    margin-left: 5%;
+
+.caption {
+    padding-top: 8px;
+}
 }
 .grid-container {
     margin-left: 0;
@@ -51,9 +51,9 @@ li {
 
 /*Link and Visited Styling*/
 .nav:link, .nav:visited {
-  background: #62CC67;
-  border-left: 8px solid #FF7E63;
-  color: black;
+  background: rgb(153, 117, 57);
+  border-left: 8px solid rgb(240, 144, 119);
+  color: rgb(90, 42, 56);
   display: block;
   height: 32px;
   line-height: 32px;
@@ -65,9 +65,9 @@ li {
 }
 
 .nav:hover {
-  background: #FF7E63;
-  border-left: 8px solid #62CC67;
-  color: black;
+  background: rgb(240, 144, 119);
+  border-left: 8px solid rgb(153, 117, 57);
+  color: rgb(90, 42, 56);
   margin-left: 32px;
 }
 
