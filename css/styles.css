@@ -17,15 +17,21 @@ body {
     background: url(https://c1.staticflickr.com/3/2505/4038298414_94b71e4abe_b.jpg);
 }
 
-img { 
-    width:50%
+main {
+    width: 95%;
 }
+
+#flag { 
+    width: 75%;
+    border-radius: 25%
+}
+
 
 
 /*Layout*/
 
 .caption {
-    padding-top: 8px;
+    font-size: 1.25em;
 }
 }
 .grid-container {
@@ -36,7 +42,6 @@ a:link, a:visited {
     color: black;
     text-decoration: none;
 }
-
     
 /*Typography*/
 
