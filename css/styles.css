@@ -23,7 +23,7 @@ main {
 }
 
 #flag { 
-    width: 75%;
+    width: 40%;
     border-radius: 25%
 }
 
@@ -64,6 +64,11 @@ h1, h2, h3 {
     font-family: 'Nunito', sans-serif;
 }
 
+label {
+    font-family: 'Indie Flower', cursive;
+}
+
+
 /*Navigation*/
 
 
@@ -84,9 +89,11 @@ li {
   margin-bottom: 10px;
   text-align: center;
   text-decoration: none;
-  width: 200px;
+  width: 163px;
   transition: background .5s, margin-left 1s;
   margin-top: 40px;
+  font-family: 'Indie Flower', cursive;
+  font-weight: bold;
 }
 
 .nav:hover {
@@ -100,3 +107,7 @@ li {
 
 
 /*Other*/
+
+input {
+  display: block;
+}
