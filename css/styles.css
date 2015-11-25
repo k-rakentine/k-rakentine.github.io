@@ -5,7 +5,8 @@
 Typography:
     headings: font-family: 'Nunito', sans-serif;
     content: font-family: 'Vollkorn', serif;
-    accents: font-family: 'Indie Flower', cursive; 
+    accents: font-family: 'Indie Flower', cursive;
+
 
 Colors:
     (deep purple) rgb(90, 42, 56)
@@ -27,9 +28,9 @@ main {
     border-radius: 25%
 }
 
-#finch {
-    width: 14%;
-    border-radius: 50%;
+#porch {
+    width: 30%;
+    border-radius: 41%;
 }
 
 
@@ -49,6 +50,14 @@ a:link, a:visited {
     text-decoration: none;
 }
 
+img, embed, object, video, iframe {
+  width: 100%;
+  max-width: 100%;
+}
+
+.contact:link, .contact:visited {
+    color: rgb(240, 144, 119)
+}
 
 /*Typography*/
 
@@ -68,6 +77,9 @@ label {
     font-family: 'Indie Flower', cursive;
 }
 
+.movies, .books, .things {
+    font-family: 'Vollkorn', serif;
+}
 
 /*Navigation*/
 
