@@ -131,7 +131,20 @@ li {
   margin-left: 32px;
 }
 
-    
+
+/*gallery styling*/
+
+.gallery {
+    height: 500px;
+}
+
+.gallery .item {
+    background: green;
+}
+
+.controls img:hover {
+    outline: 5px solid red;
+}
 
 
 /*Other*/
