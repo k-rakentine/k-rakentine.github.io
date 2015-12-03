@@ -23,9 +23,10 @@ main {
     width: 95%;
 }
 
-#flag { 
-    width: 40%;
-    border-radius: 25%
+#senior { 
+    width: 33.5%;
+    border-radius: 11%;
+    padding-left: 0px;
 }
 
 #porch {
@@ -59,25 +60,40 @@ img, embed, object, video, iframe {
     color: rgb(240, 144, 119)
 }
 
+form {
+    background: rgb(90, 42, 56);
+    color: rgb(240, 144, 119);
+    padding: 20px;
+    border-radius: 5%;
+    padding-bottom: 15px;
+    padding-bottom: 15px;
+}
+
+
 /*Typography*/
 
-blockquote {
+/*blockquote {
     font-family: 'Indie Flower', cursive;
 }
 
 p {
     font-family: 'Vollkorn', serif;
-}
+}*/
 
 h1, h2, h3 {
     font-family: 'Nunito', sans-serif;
 }
 
-label {
+label, blockquote {
     font-family: 'Indie Flower', cursive;
 }
 
-.movies, .books, .things {
+input {
+   font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+}
+
+.movies, .books, .things, p {
     font-family: 'Vollkorn', serif;
 }
 
