@@ -1,27 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-   <main>
-        <head>
-            <meta charset="UTF-8">
-            <title>Keley Rakentine</title>
-            <link rel="stylesheet" href="css/styles.css" />
-            <link rel="stylesheet" href="css/treehousegrid.css" />
-            <link href='https://fonts.googleapis.com/css?family=Indie+Flower|Nunito|Vollkorn' rel='stylesheet' type='text/css'>
-            <link rel="stylesheet" href="css/gallery.css" />
-
-        
-    </head>
-    <body>
-<nav role='navigation'>
-  <ul>
-    <li><a href="index.html" class="nav">Home</a></li>
-    <li><a href="about.html" class="nav">About</a></li>
-    <li><a href="resume.html" class="nav">Resume</a></li>
-    <li><a href="portfolio.html" class="nav">Portfolio</a></li>
-  </ul>
-</nav> 
-    <h1>Kelsey Lynne Rakentine</h1>
-
 <div class="gallery items-3">
   
   <!-- Containers for Content -->
@@ -60,9 +36,3 @@
     </a>
   </div>
 </div>
-    
-    
-
-</body>
-    </main>
-</html>
