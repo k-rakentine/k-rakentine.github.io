@@ -26,7 +26,7 @@ main {
 #senior { 
     width: 33.5%;
     border-radius: 11%;
-    padding-left: 0px;
+    margin-right: 5%;
 }
 
 #porch {
@@ -34,6 +34,25 @@ main {
     border-radius: 41%;
 }
 
+#cousins {
+    max-width: 39%;
+    border-radius: 11%;
+    margin-left: 5%;
+}
+
+#ewu {
+    background: url(http://www.am-hs.org/uploaded/Academics/366px-Eastern_Washington_University_Seal.svg.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    padding-left: 13%;
+}
+
+#sfcc {
+    background: url(https://www.higheredjobs.com/images/AccountImages/680_2.gif);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    padding-left: 13%;
+}
 
 
 /*Layout*/
@@ -41,10 +60,8 @@ main {
 .caption {
     font-size: 1.25em;
 }
-}
-.grid-container {
-    margin-left: 0;
-}
+
+
 
 a:link, a:visited {
     color: black;
@@ -69,6 +86,32 @@ form {
     padding-bottom: 15px;
 }
 
+.mail {
+    max-width: 15%;
+    padding-bottom: 12px;
+}
+
+.phone {
+    max-width: 15%;
+    padding-bottom: 5px;
+}
+
+.fb {
+    max-width: 20%;
+}
+
+.contact {
+    padding-left: 41%;
+}
+
+blockquote {
+    margin-left: 35%;
+}
+#cousins {
+    max-width: 39%;
+    border-radius: 11%;
+    margin-left: 5%;
+}
 
 /*Typography*/
 
