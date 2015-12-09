@@ -24,7 +24,7 @@ main {
 }
 
 #senior { 
-    width: 33.5%;
+    width: 35%;
     border-radius: 11%;
     margin-right: 5%;
 }
@@ -43,15 +43,15 @@ main {
 #ewu {
     background: url(http://www.am-hs.org/uploaded/Academics/366px-Eastern_Washington_University_Seal.svg.png);
     background-repeat: no-repeat;
-    background-size: 20px;
-    padding-left: 13%;
+    background-size: 73px;
+    padding-left: 91px;
 }
 
 #sfcc {
     background: url(https://www.higheredjobs.com/images/AccountImages/680_2.gif);
     background-repeat: no-repeat;
-    background-size: 20px;
-    padding-left: 13%;
+    background-size: 103px;
+    padding-left: 111px;
 }
 
 
@@ -93,7 +93,7 @@ form {
 
 .phone {
     max-width: 15%;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
 }
 
 .fb {
@@ -101,11 +101,12 @@ form {
 }
 
 .contact {
-    padding-left: 41%;
+    padding-left: 38%;
 }
 
 blockquote {
     margin-left: 35%;
+    font-size: 20px;
 }
 #cousins {
     max-width: 39%;
@@ -139,6 +140,7 @@ input {
 .movies, .books, .things, p {
     font-family: 'Vollkorn', serif;
 }
+
 
 /*Navigation*/
 
