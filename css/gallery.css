@@ -18,7 +18,7 @@ h3 {
   left: 40px;
 }
 
-/* Use :nth-child to add borders to 1st, 2nd, 3rd */
+
 li:nth-child(1) a {;
   display: block;
 }
@@ -31,24 +31,26 @@ li:nth-child(3) a {
   display: block;
 }
 
-/* Change Borders of Full Size Images */ 
+ 
 #fullsize-1:target {
   z-index: 1;
+    max-width: 65;
 }
 
 #fullsize-2:target {
   z-index: 2;
+  max-width: 65%;
 }
 
 #fullsize-3:target {
   z-index: 3;
+  max-width: 65%;
 }
 
 
-/*fancify*/
 .fullsize img {
   opacity: 0;
-  transition: opacity 1s;
+  transition: opacity .5s;
 }
 
 .fullsize img:target {
